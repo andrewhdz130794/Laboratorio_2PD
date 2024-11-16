@@ -16,14 +16,18 @@ Laboratorio_2PD/ ├── API/ │ ├── main.py # Archivo principal para e
 2. **Python 3.9+** (opcional si decides probar sin Docker).
 3. Librerías necesarias especificadas en `requirements.txt`.
 
-## IMPORTANTE!!
-Inicia Docker Desktop antes de Ejecutar los comandos de este archivo
-Si realizas algùn cambio a los archivos para asegurarte que los cambios los tome deberas de
+## IMPORTANTE!! 
+
+1. Inicia Docker Desktop antes de Ejecutar los comandos de este archivo
+
+2. Si realizas algùn cambio a los archivos para asegurarte que los cambios los tome deberas de
 ejectuar nuevamente:
 docker build -t automl-dockerizer-api .
 docker build -t automl-dockerizer-batch .
-Asegúrate de que las rutas en el archivo .env coincidan con la estructura de tu proyecto.
-Verifica que los puertos utilizados por Docker estén disponibles (por defecto, 8000 para la API).
+
+3. Asegúrate de que las rutas en el archivo .env coincidan con la estructura de tu proyecto.
+
+4. Verifica que los puertos utilizados por Docker estén disponibles (por defecto, 8000 para la API).
 ---
 
 ## Ejecución del Proyecto
